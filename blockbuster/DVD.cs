@@ -13,6 +13,7 @@ namespace blockbuster
         {
 
         }
+        //play by scene selection
         public override void Play()
         {
             bool cont = true;
@@ -21,20 +22,26 @@ namespace blockbuster
             {
                 int count = 1;
                 Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine($"Which Scene of \"{Title}\" would you like to watch?");
                 Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
                 foreach (string scene in Scenes)
                 {
                     Console.WriteLine($"Scene {count}: {scene}");
                     count++;
                 }
                 Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.Write($"Enter 1 - {Scenes.Count}: ");
+                Console.ResetColor();
                 int selection = CheckNumber(Console.ReadLine(), true, Scenes.Count);
                 Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
                 Console.WriteLine($"Watching scene {selection}: {Scenes[selection - 1]}...");
 
                 Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine("Would you like to watch another scene? y/n");
                 string input = CheckDecision(Console.ReadLine());
 
@@ -44,20 +51,22 @@ namespace blockbuster
                 }
             }
         }
-
         //play all scenes
         public override void PlayWholeMovie()
         {
             int count = 1;
             Console.Clear();
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine($"Watching {Title}...");
             Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
             foreach (string scene in Scenes)
             {
                 Console.WriteLine($"Scene {count}: {scene}");
                 count++;
             }
             Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine($"...{Title} has ended.");
         }
         //Check for y/n

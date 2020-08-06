@@ -8,7 +8,9 @@ namespace blockbuster
         static void Main(string[] args)
         {
             Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("***** Welcome to BlorkBorstor! *****");
+            Console.ResetColor();
             Console.WriteLine();
 
             Blockbuster myStore = new Blockbuster();
