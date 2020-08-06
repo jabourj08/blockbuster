@@ -1,0 +1,13 @@
+C:\Users\Josh\source\repos\blockbuster\blockbuster\bin\Debug\netcoreapp3.1\blockbuster.exe
+C:\Users\Josh\source\repos\blockbuster\blockbuster\bin\Debug\netcoreapp3.1\blockbuster.deps.json
+C:\Users\Josh\source\repos\blockbuster\blockbuster\bin\Debug\netcoreapp3.1\blockbuster.runtimeconfig.json
+C:\Users\Josh\source\repos\blockbuster\blockbuster\bin\Debug\netcoreapp3.1\blockbuster.runtimeconfig.dev.json
+C:\Users\Josh\source\repos\blockbuster\blockbuster\bin\Debug\netcoreapp3.1\blockbuster.dll
+C:\Users\Josh\source\repos\blockbuster\blockbuster\bin\Debug\netcoreapp3.1\blockbuster.pdb
+C:\Users\Josh\source\repos\blockbuster\blockbuster\obj\Debug\netcoreapp3.1\blockbuster.csprojAssemblyReference.cache
+C:\Users\Josh\source\repos\blockbuster\blockbuster\obj\Debug\netcoreapp3.1\blockbuster.AssemblyInfoInputs.cache
+C:\Users\Josh\source\repos\blockbuster\blockbuster\obj\Debug\netcoreapp3.1\blockbuster.AssemblyInfo.cs
+C:\Users\Josh\source\repos\blockbuster\blockbuster\obj\Debug\netcoreapp3.1\blockbuster.csproj.CoreCompileInputs.cache
+C:\Users\Josh\source\repos\blockbuster\blockbuster\obj\Debug\netcoreapp3.1\blockbuster.dll
+C:\Users\Josh\source\repos\blockbuster\blockbuster\obj\Debug\netcoreapp3.1\blockbuster.pdb
+C:\Users\Josh\source\repos\blockbuster\blockbuster\obj\Debug\netcoreapp3.1\blockbuster.genruntimeconfig.cache
